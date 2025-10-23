@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # make npm ignore peer dependency conflicts during install
+  NPM_FLAGS = "--legacy-peer-deps"
+  # ensure a stable Node version (optional)
+  NODE_VERSION = "18"
