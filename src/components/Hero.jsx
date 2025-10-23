@@ -6,21 +6,21 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section
-      className={`relative w-full h-screen mx-auto bg-[url('/src/assets/hero3.jpg')] bg-cover bg-center`}
+      className={`relative w-full h-screen mx-auto bg-[url('/src/assets/hero7.png')] bg-cover bg-center`}
     >
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#7FEFFD]" />
+          <div className="w-5 h-5 rounded-full bg-[#FFC107]" />
           <div className="w-1 sm:h-80 h-40 ElectricBlue-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#00EDFB]">Akorede</span>
+            Hi, I'm <span className="text-[#FFC107]">Akorede</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-[#FFC107]`}>
             I develop 3D visual assets, responsive user{" "}
             <br className="sm:block hidden" />
             interfaces, and scalable web applications,{" "}
